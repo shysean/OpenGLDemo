@@ -7,25 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		14253A861994E8E5001E942B /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14253A851994E8E5001E942B /* GLUT.framework */; };
-		14253A881994E9ED001E942B /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14253A871994E9ED001E942B /* OpenGL.framework */; };
 		14253A911996065E001E942B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14253A901996065E001E942B /* main.cpp */; };
 		14253A931996065E001E942B /* DoubleBuffers.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 14253A921996065E001E942B /* DoubleBuffers.1 */; };
 		14253A97199609AA001E942B /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14253A871994E9ED001E942B /* OpenGL.framework */; };
 		14253A98199609B6001E942B /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14253A851994E8E5001E942B /* GLUT.framework */; };
-		1479640519961CB2000C0036 /* FirstOpenGL.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1479640419961CB2000C0036 /* FirstOpenGL.cpp */; };
+		1479640D19961FA7000C0036 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1479640C19961FA7000C0036 /* main.cpp */; };
+		1479640F19961FA7000C0036 /* FirstOpenGL.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1479640E19961FA7000C0036 /* FirstOpenGL.1 */; };
+		1479641319962009000C0036 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14253A871994E9ED001E942B /* OpenGL.framework */; };
+		147964141996200E000C0036 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14253A851994E8E5001E942B /* GLUT.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		14253A751994E629001E942B /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 1;
-		};
 		14253A8C1996065E001E942B /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -36,34 +28,45 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		1479640819961FA7000C0036 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				1479640F19961FA7000C0036 /* FirstOpenGL.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		14253A771994E629001E942B /* OpenGLDemo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = OpenGLDemo; path = FirstOpenGL; sourceTree = BUILT_PRODUCTS_DIR; };
 		14253A851994E8E5001E942B /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
 		14253A871994E9ED001E942B /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
 		14253A8E1996065E001E942B /* DoubleBuffers */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DoubleBuffers; sourceTree = BUILT_PRODUCTS_DIR; };
 		14253A901996065E001E942B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		14253A921996065E001E942B /* DoubleBuffers.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = DoubleBuffers.1; sourceTree = "<group>"; };
-		1479640419961CB2000C0036 /* FirstOpenGL.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FirstOpenGL.cpp; path = FirstOpenGL/FirstOpenGL.cpp; sourceTree = SOURCE_ROOT; };
+		1479640A19961FA7000C0036 /* FirstOpenGL */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FirstOpenGL; sourceTree = BUILT_PRODUCTS_DIR; };
+		1479640C19961FA7000C0036 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		1479640E19961FA7000C0036 /* FirstOpenGL.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = FirstOpenGL.1; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		14253A741994E629001E942B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				14253A881994E9ED001E942B /* OpenGL.framework in Frameworks */,
-				14253A861994E8E5001E942B /* GLUT.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		14253A8B1996065E001E942B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				14253A98199609B6001E942B /* GLUT.framework in Frameworks */,
 				14253A97199609AA001E942B /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1479640719961FA7000C0036 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				147964141996200E000C0036 /* GLUT.framework in Frameworks */,
+				1479641319962009000C0036 /* OpenGL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,8 +77,8 @@
 			isa = PBXGroup;
 			children = (
 				14253A8919960615001E942B /* Framework */,
-				14253A791994E629001E942B /* FirstOpenGL */,
 				14253A8F1996065E001E942B /* DoubleBuffers */,
+				1479640B19961FA7000C0036 /* FirstOpenGL */,
 				14253A781994E629001E942B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -83,19 +86,10 @@
 		14253A781994E629001E942B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				14253A771994E629001E942B /* OpenGLDemo */,
 				14253A8E1996065E001E942B /* DoubleBuffers */,
+				1479640A19961FA7000C0036 /* FirstOpenGL */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		14253A791994E629001E942B /* FirstOpenGL */ = {
-			isa = PBXGroup;
-			children = (
-				1479640419961CB2000C0036 /* FirstOpenGL.cpp */,
-			);
-			name = FirstOpenGL;
-			path = OpenGLDemo;
 			sourceTree = "<group>";
 		};
 		14253A8919960615001E942B /* Framework */ = {
@@ -116,26 +110,18 @@
 			path = DoubleBuffers;
 			sourceTree = "<group>";
 		};
+		1479640B19961FA7000C0036 /* FirstOpenGL */ = {
+			isa = PBXGroup;
+			children = (
+				1479640C19961FA7000C0036 /* main.cpp */,
+				1479640E19961FA7000C0036 /* FirstOpenGL.1 */,
+			);
+			path = FirstOpenGL;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		14253A761994E629001E942B /* FirstOpenGL */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 14253A801994E629001E942B /* Build configuration list for PBXNativeTarget "FirstOpenGL" */;
-			buildPhases = (
-				14253A731994E629001E942B /* Sources */,
-				14253A741994E629001E942B /* Frameworks */,
-				14253A751994E629001E942B /* CopyFiles */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = FirstOpenGL;
-			productName = OpenGLDemo;
-			productReference = 14253A771994E629001E942B /* OpenGLDemo */;
-			productType = "com.apple.product-type.tool";
-		};
 		14253A8D1996065E001E942B /* DoubleBuffers */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 14253A941996065E001E942B /* Build configuration list for PBXNativeTarget "DoubleBuffers" */;
@@ -151,6 +137,23 @@
 			name = DoubleBuffers;
 			productName = DoubleBuffers;
 			productReference = 14253A8E1996065E001E942B /* DoubleBuffers */;
+			productType = "com.apple.product-type.tool";
+		};
+		1479640919961FA7000C0036 /* FirstOpenGL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1479641019961FA7000C0036 /* Build configuration list for PBXNativeTarget "FirstOpenGL" */;
+			buildPhases = (
+				1479640619961FA7000C0036 /* Sources */,
+				1479640719961FA7000C0036 /* Frameworks */,
+				1479640819961FA7000C0036 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FirstOpenGL;
+			productName = FirstOpenGL;
+			productReference = 1479640A19961FA7000C0036 /* FirstOpenGL */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -174,26 +177,26 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				14253A761994E629001E942B /* FirstOpenGL */,
 				14253A8D1996065E001E942B /* DoubleBuffers */,
+				1479640919961FA7000C0036 /* FirstOpenGL */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		14253A731994E629001E942B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1479640519961CB2000C0036 /* FirstOpenGL.cpp in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		14253A8A1996065E001E942B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				14253A911996065E001E942B /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1479640619961FA7000C0036 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1479640D19961FA7000C0036 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,20 +273,6 @@
 			};
 			name = Release;
 		};
-		14253A811994E629001E942B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		14253A821994E629001E942B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
 		14253A951996065E001E942B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -304,6 +293,26 @@
 			};
 			name = Release;
 		};
+		1479641119961FA7000C0036 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1479641219961FA7000C0036 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -316,15 +325,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		14253A801994E629001E942B /* Build configuration list for PBXNativeTarget "FirstOpenGL" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				14253A811994E629001E942B /* Debug */,
-				14253A821994E629001E942B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		14253A941996065E001E942B /* Build configuration list for PBXNativeTarget "DoubleBuffers" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -333,6 +333,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		1479641019961FA7000C0036 /* Build configuration list for PBXNativeTarget "FirstOpenGL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1479641119961FA7000C0036 /* Debug */,
+				1479641219961FA7000C0036 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
